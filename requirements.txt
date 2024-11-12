@@ -1,1 +1,9 @@
-nothing yet </3
+numpy
+pandas
+matplotlib
+seaborn
+torch
+librosa
+transformers
+tensorflow
+scikit-learn
