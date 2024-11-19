@@ -1,3 +1,9 @@
+# audio stuff
+import librosa
+from transformers import Wav2Vec2Processor, HubertModel
+from torch.utils.data import DataLoader
+from torch.nn.utils.rnn import pad_sequence
+
 # Let's set up a folder of all of our audio files inside of the repo
 # Load metadata from a CSV with columns "audio_file_path" and "label"
 metadata = pd.read_csv('metadata.csv')
